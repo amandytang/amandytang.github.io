@@ -568,7 +568,7 @@ a:before, a:after  {
     margin-top: 18px !important;
     padding-top: 0 !important;
     box-sizing: content-box !important;
-
+    width: 40px !important;
   }
   #social-media a img {
     margin-top: 18px;
