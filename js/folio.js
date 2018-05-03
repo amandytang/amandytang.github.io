@@ -78,6 +78,10 @@ $( document ).ready(function() {
     // }
     if ($('#origame-thumb').isInViewport()) {
       $('#origame-thumb').addClass('animated fadeInRight');
+      $('#home').removeClass('active');
+       $('#about').removeClass('active');
+       $('#contact').removeClass('active');
+       $('#projects').addClass('active');
     }
     if ($('#tictac-thumb').isInViewport()) {
       $('#tictac-thumb').addClass('animated fadeInRight');

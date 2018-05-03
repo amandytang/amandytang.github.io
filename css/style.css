@@ -538,9 +538,12 @@ a:before, a:after  {
     display:flex;
     justify-content: space-around;
   }
+
   #top-menu li a {
-     margin: 20px 10px 20px 10px;
-     font-size: 0.96em;
+     margin: 12px 10px 20px 10px;
+     font-size: 0.75em;
+     padding: 0 !important;
+     padding-left: 2px !important;
   }
   .dynamo {
     height: 25px !important;
