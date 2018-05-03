@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
- 
+
 html {
   min-height: 100vh;
   overflow-x: hidden !important;
@@ -524,10 +524,13 @@ a:before, a:after  {
  }
 
 /* RESPONSIVENESS */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0px) {
+  * { box-sizing: border-box !important; }
+
   html,body {
     padding: 0 !important;
     margin: 0 !important;
+
   }
   #top-menu {
     padding: 0 !important;
@@ -551,7 +554,7 @@ a:before, a:after  {
   }
   .main {
     margin-top:-6vh;
-    height: 1800px;
+    height: 1850px;
    }
   #social-media {
     margin-top: 0;
@@ -607,13 +610,18 @@ a:before, a:after  {
     font-weight: 300;
     color: #000;
     height: 410px;
+    box-sizing: content-box !important;
   }
   .modal-text {
     font-size: 0.90em;
+    box-sizing: content-box !important;
+
   }
   #slider {
     margin-top: 1px;
     margin-right: 0px !important;
+    box-sizing: content-box !important;
+
   }
 }
 @media only screen and (min-width: 500px) {
@@ -650,7 +658,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 35px 35px 35px;
-    height: 180vh;
+    height: 200vh !important;
   }
   #gallery {
     flex-wrap: wrap !important;
