@@ -645,19 +645,11 @@ a:before, a:after  {
 @media only screen and (min-width: 380px) {
   .slider {
     position: absolute;
-    top: 272px;
-    left: 71px;
+    top: 269px !important;
+    left: 96px !important;
     width: 70.5%;
   }
-   #slider {
-    position: absolute;
-    top: 290px !important;
-    left: 96px !important;
-    max-width: 239px !important;
-    border: 1px solid #8591a2 !important;
-    height: 140px;
-    overflow: hidden;
-  }
+
   #mockup {
     display:inline-block !important;
   }
@@ -702,6 +694,10 @@ a:before, a:after  {
   }
 }
 @media only screen and (min-width: 600px) {
+  * {
+    box-sizing: border-box !important;
+
+  }
   #top-menu {
     padding: 0 !important;
     margin: 0 !important;
@@ -727,10 +723,14 @@ a:before, a:after  {
     margin-left: 10px !important;
     margin-top: 20px;
   }
+  #social-media a {
+    width: 40px !important;
 }
 @media only screen and (min-width: 800px) {
   .main {
     padding: 20px 35px 35px 35px;
+    height: 155vh !important;
+
   }
   #social-media {
     display:inline-block;
