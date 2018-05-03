@@ -109,9 +109,10 @@ header {
   transition: .5s all ease-out;
   color: #ffffff;
   text-decoration: none;
-  padding:2px 3px 2px 5px;
+  padding: 2px 3px 2px 5px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  width: 40px !important;
 }
 #top-menu a:hover {
   color: #71baaa;
@@ -568,7 +569,6 @@ a:before, a:after  {
     margin-top: 18px !important;
     padding-top: 0 !important;
     box-sizing: content-box !important;
-    width: 40px !important;
   }
   #social-media a img {
     margin-top: 18px;
@@ -609,34 +609,40 @@ a:before, a:after  {
   }
   #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
     background: #fff;
-    padding: 15px !important;
-    max-width: 290px;
+    padding: 20px !important;
+    max-width: 270px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #000;
     height: 410px;
     box-sizing: content-box !important;
   }
-.cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close {
-  margin-top: -20px !important;
-  padding: 0px !important;
-}
-#mockup {
-  display:none;
-}
+  .cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close {
+    left: -8px !important;
+    top: 5px;
+    padding: 0px !important;
+  }
+  #mockup {
+    display:none;
+  }
   .modal-text {
     font-size: 0.82em;
     box-sizing: content-box !important;
   }
   #slider {
     margin-left: -25px !important;
-    margin-top: -20px !important;
+    margin-top: 0px !important;
     margin-right: 0px !important;
     border: none !important;
   }
+  #intro-text, .about-text {
+    font-weight: 300;
+  }
+  .accent-text {
+    font-weight: 600;
+  }
 }
 @media only screen and (min-width: 380px) {
-
   .slider {
     position: absolute;
     top: 272px;
@@ -657,7 +663,6 @@ a:before, a:after  {
   }
   #slider-image {
     max-width: 100% !important;
-
   }
   #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
     background: #fff;
@@ -665,7 +670,6 @@ a:before, a:after  {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 30px !important;
-
     color: #000;
     height: 410px;
     box-sizing: content-box !important;
@@ -685,6 +689,9 @@ a:before, a:after  {
   }
   .main {
     padding: 0px 0px 15px 15px ;
+  }
+  #intro-text, .about-text {
+    font-weight: 200 !important;
   }
   footer {
     bottom: 30px !important;
