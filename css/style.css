@@ -649,7 +649,6 @@ a:before, a:after  {
     left: 96px !important;
     width: 70.5%;
   }
-
   #mockup {
     display:inline-block !important;
   }
@@ -668,6 +667,7 @@ a:before, a:after  {
   }
 }
 @media only screen and (min-width: 500px) {
+
   #top-menu {
     padding: 0 !important;
     margin: 0 !important;
@@ -680,23 +680,25 @@ a:before, a:after  {
     padding:2px 3px 2px 5px !important;
   }
   .main {
-    padding: 0px 0px 15px 15px ;
+    padding: 20px !important;
+    height: 1750px;
   }
   #intro-text, .about-text {
     font-weight: 200 !important;
   }
   footer {
     bottom: 30px !important;
+    max-width: 100vw !important;
   }
   #social-media {
     margin-top: 15px;
     margin-left: -30px !important;
-  }
+   }
+
 }
 @media only screen and (min-width: 600px) {
   * {
     box-sizing: border-box !important;
-
   }
   #top-menu {
     padding: 0 !important;
@@ -708,7 +710,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 35px 35px 35px;
-    height: 200vh !important;
+    height: 195vh !important;
   }
   #gallery {
     flex-wrap: wrap !important;
@@ -725,17 +727,23 @@ a:before, a:after  {
   }
   #social-media a {
     width: 40px !important;
+  }
+  #slider {
+    border: 1px solid #8591a2 !important;
+  }
 }
 @media only screen and (min-width: 800px) {
   .main {
-    padding: 20px 35px 35px 35px;
-    height: 155vh !important;
-
+    padding: 20px 35px 35px 35px !important;
+    height: 1500px !important;
   }
   #social-media {
     display:inline-block;
     margin-left: 10px !important;
     margin-top: 20px;
+  }
+  .accent-text {
+    font-weight: 400 !important;
   }
   #intro-text, .about-text {
     font-size: 1.1em;
@@ -750,7 +758,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 918px) {
   .main {
-    padding: 1.5em 3em 3em 3em;
+    padding: 1.5em 3em 3em 3em !important;
     height: 160vh !important;
   }
   #gallery {
@@ -759,7 +767,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 1024px) {
   .main {
-    padding: 1.5em 4em 4em 4em;
+    padding: 1.5em 4em 4em 4em !important;
   }
   #intro-text, .about-text {
     line-height: 1.8em !important;
@@ -777,13 +785,13 @@ a:before, a:after  {
     display: block;
     margin: 0 auto !important;
     margin-left: 140px !important;
-    margin-top: 30px !important;
+    margin-top: 11px !important;
   }
   #slider {
     width: 240px !important;
     margin-left: 129px !important;
     height: 140px;
-    margin-top: 22px !important;
+    margin-top: 24px !important;
     overflow: hidden !important;
   }
   #cocanvas-modal ul, #origame-modal ul, #tictac-modal ul, #burning-modal ul, #ph-modal ul {
@@ -806,7 +814,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 1224px) {
   .main {
-    padding: 1.5em 5em 5em 5em;
+    padding: 1.5em 5em 5em 5em !important;
   }
   #gallery {
     width: 75vw;
