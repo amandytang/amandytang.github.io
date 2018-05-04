@@ -776,7 +776,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 1024px) {
   .main {
-    padding: 1.5em 4em 4em 4em !important;
+    padding: 1.5em 0em 4em 0em !important;
   }
   #intro-text, .about-text {
     line-height: 1.8em !important;
@@ -823,7 +823,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 1224px) {
   .main {
-    padding: 1.5em 5em 5em 5em !important;
+    padding: 1.5em 0em 5em 0em !important;
   }
   #gallery {
     width: 75vw;
@@ -837,7 +837,7 @@ a:before, a:after  {
 }
 @media only screen and (min-width: 1387px) {
   .main {
-    padding: 1.5em 5.5em 5.5em 5.5em;
+    padding: 1.5em 0em 5.5em 0em;
   }
   #gallery {
     width: 70vw;
