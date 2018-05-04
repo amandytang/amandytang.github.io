@@ -38,6 +38,7 @@ header {
   min-height: 40vh;
   margin-top:-15%;
   z-index:4;
+  overflow-x: hidden !important;
 }
 #sea {
   background-image: url("images/sea.png");
@@ -47,6 +48,7 @@ header {
   min-height: 40vh;
   margin-top:12.5vh;
   z-index:5;
+  overflow-x: hidden !important;
 }
 .main {
   height: 200vh;
@@ -67,6 +69,8 @@ header {
   font-weight:500;
   letter-spacing:3px;
   z-index:99;
+  overflow-x: hidden !important;
+
 }
 .nav-bg {
   background-image: linear-gradient(to top, #a1f2ec, #96e8e2, #8addd7, #7fd3cd, #74c9c3);
@@ -227,6 +231,8 @@ header {
  box-sizing: border-box;
  -webkit-transition: all 0.3s linear;
  transition: all 0.3s linear;
+ max-width: 220px !important;
+
 }
 .porthole:before,
 .porthole:after {
@@ -847,7 +853,7 @@ a:before, a:after  {
 @media only screen and (min-width: 1920px) {
   .main {
     padding: 1.5em 9em 9em 9em;
-    height: 100vh !important;
+    height: 1500px !important;
   }
   #gallery {
     width: 85vw;
