@@ -76,14 +76,14 @@ header {
   max-width:35%;
 }
 #top-menu, #social-media {
-    z-index: 1;
-    left: 0;
-    right: 0;
-    top: 0;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 #top-menu li, #social-media li {
-    float: left;
-    list-style-type: none;
+  float: left;
+  list-style-type: none;
 }
 #top-menu a {
   display: block;
@@ -131,6 +131,7 @@ header {
   padding:2px 3px 2px 5px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+
 }
 #intro-text, .about-text {
   font-family: 'Montserrat', sans-serif;
@@ -545,6 +546,7 @@ a:before, a:after  {
      padding: 0 !important;
      padding-left: 2px !important;
   }
+
   .dynamo {
     height: 25px !important;
   }
@@ -710,7 +712,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 35px 35px 35px;
-    height: 195vh !important;
+    height: 1500px;
   }
   #gallery {
     flex-wrap: wrap !important;
@@ -759,7 +761,7 @@ a:before, a:after  {
 @media only screen and (min-width: 918px) {
   .main {
     padding: 1.5em 3em 3em 3em !important;
-    height: 160vh !important;
+    height: 1350px !important;
   }
   #gallery {
     justify-content: space-around;
