@@ -764,6 +764,9 @@ a:before, a:after  {
   .particletext {
     padding-left: 5px;
   }
+  #about-heading-container, #projects-heading-container, #contact-heading-container {
+    margin-left: 2.5vw;
+  }
 }
 @media only screen and (min-width: 918px) {
   .main {
