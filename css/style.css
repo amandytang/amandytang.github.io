@@ -547,10 +547,10 @@ a:before, a:after  {
   }
 
   #top-menu li a {
-     margin: 12px 10px 0px 10px;
-     font-size: 0.75em;
-     padding: 0 !important;
-     padding-left: 2px !important;
+   margin: 12px 10px 0px 10px;
+   font-size: 0.75em;
+   padding: 0 !important;
+   padding-left: 2px !important;
   }
 
   .dynamo {
@@ -675,7 +675,6 @@ a:before, a:after  {
   }
 }
 @media only screen and (min-width: 500px) {
-
   #top-menu {
     padding: 0 !important;
     margin: 0 !important;
@@ -688,11 +687,13 @@ a:before, a:after  {
     padding:2px 3px 2px 5px !important;
   }
   .main {
-    padding: 20px !important;
+    padding: 20px 0px 20px 0px !important;
     height: 1750px;
   }
   #intro-text, .about-text {
     font-weight: 200 !important;
+    width: 90vw;
+    margin-left: 5vw !important;
   }
   footer {
     bottom: 30px !important;
@@ -702,7 +703,6 @@ a:before, a:after  {
     margin-top: 15px;
     margin-left: -30px !important;
    }
-
 }
 @media only screen and (min-width: 600px) {
   * {
@@ -730,7 +730,7 @@ a:before, a:after  {
   }
   #social-media {
     display:inline-block;
-    margin-left: 10px !important;
+    margin-left: 5vw !important;
     margin-top: 20px;
   }
   #social-media a {
@@ -740,14 +740,18 @@ a:before, a:after  {
     border: 1px solid #8591a2 !important;
   }
 }
+@media only screen and (min-width: 780px) {
+  #gallery {
+    width: 85vw;
+  }
+}
 @media only screen and (min-width: 800px) {
   .main {
-    padding: 20px 35px 35px 35px !important;
+    padding: 20px 0px 35px 0px !important;
     height: 1500px !important;
   }
   #social-media {
     display:inline-block;
-    margin-left: 10px !important;
     margin-top: 20px;
   }
   .accent-text {
@@ -757,16 +761,13 @@ a:before, a:after  {
     font-size: 1.1em;
     padding-right: 35px !important;
   }
-  #gallery {
-    width: 85vw;
-  }
   .particletext {
     padding-left: 5px;
   }
 }
 @media only screen and (min-width: 918px) {
   .main {
-    padding: 1.5em 3em 3em 3em !important;
+    padding: 1.5em 0em 3em 0em !important;
     height: 1350px !important;
   }
   #gallery {
