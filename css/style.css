@@ -232,7 +232,6 @@ header {
  -webkit-transition: all 0.3s linear;
  transition: all 0.3s linear;
  max-width: 220px !important;
-
 }
 .porthole:before,
 .porthole:after {
