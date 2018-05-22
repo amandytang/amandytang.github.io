@@ -69,6 +69,9 @@ $( document ).ready(function() {
     if ($('#cocanvas-thumb').isInViewport()) {
       $('#cocanvas-thumb').addClass('animated fadeInRight');
     }
+    if ($('#tech-thumb').isInViewport()) {
+      $('#tech-thumb').addClass('animated fadeInRight');
+    }
     // if ($('#burning-thumb').isInViewport()) {
     //   $('#burning-airlines-thumb').addClass('animated fadeInLeft');
     //   $('#home').removeClass('active');
@@ -183,6 +186,23 @@ $( document ).ready(function() {
   });
 
 
+
+  $('.tech-close').click(function(e) {
+    e.preventDefault();
+    $('#tech-modal').addClass('animated zoomOut')
+
+      setTimeout( function () {
+        $('#tech-modal').removeClass('animated zoomOut');
+      }, 550);
+
+      $('.tech-modal-overlay').fadeOut(200);
+    });
+
+  $('#tech-thumb').click(function(e) {
+    e.preventDefault();
+    $('.tech-modal-overlay').fadeIn(200);
+    $('#tech-modal').addClass('animated zoomIn');
+  });
   //
   // $('.ph-close').click(function(e) {
   //   e.preventDefault();

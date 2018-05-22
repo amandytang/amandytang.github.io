@@ -307,7 +307,7 @@ header {
 }
 
 /* MODALS */
-.cocanvas-modal-overlay, .origame-modal-overlay, .tictac-modal-overlay, .burning-modal-overlay, .ph-modal-overlay {
+.cocanvas-modal-overlay, .origame-modal-overlay, .tictac-modal-overlay, .burning-modal-overlay, .ph-modal-overlay, .tech-modal-overlay {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -315,7 +315,7 @@ header {
   display: none;
   z-index: 20;
 }
-.cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close {
+.cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close, .tech-close {
   float: right;
   margin-top: -10px;
   margin-right: -16px;
@@ -328,7 +328,7 @@ header {
   -moz-transition: .2s all ease-out;
   transition: .2s all ease-out;
 }
-.cocanvas-close:hover, .origame-close:hover, .tictac-close:hover, .burning-close:hover, .ph-close:hover {
+.cocanvas-close:hover, .origame-close:hover, .tictac-close:hover, .burning-close:hover, .ph-close:hover, .tech-close:hover {
   background-color: #666;
 }
 .cross {
@@ -344,7 +344,7 @@ footer {
   top: auto;
   width: 100%;
 }
-#cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
+#cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal, #tech-modal {
   background: #fff;
   max-width: 480px;
   width: 100%;
@@ -375,14 +375,14 @@ h3 {
   line-height: 1.4em;
   color: #333;
 }
-#cocanvas-modal ul, #origame-modal ul, #tictac-modal ul, #burning-modal ul, #ph-modal ul {
+#cocanvas-modal ul, #origame-modal ul, #tictac-modal ul, #burning-modal ul, #ph-modal ul, #tech-modal ul {
   padding-left: 30px;
   line-height: 1.5em;
   font-size: 0.80em;
   color: #333;
   margin-top: 5px;
 }
-#cocanvas-modal a, #origame-modal a, #tictac-modal a, #burning-modal a, #ph-modal a {
+#cocanvas-modal a, #origame-modal a, #tictac-modal a, #burning-modal a, #ph-modal a, #tech-modal a {
   font-weight: 500;
   color: #5a8d99;
   position:relative;
@@ -564,7 +564,7 @@ a:before, a:after  {
   }
   .main {
     margin-top:-6vh;
-    height: 1850px;
+    height: 2150px;
    }
   #social-media {
     margin-top: 0;
@@ -614,7 +614,7 @@ a:before, a:after  {
   #contact-heading-container {
     margin-top: -30px !important;
   }
-  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
+  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal, #tech-modal {
     background: #fff;
     padding: 20px !important;
     max-width: 270px;
@@ -624,7 +624,7 @@ a:before, a:after  {
     height: 410px;
     box-sizing: content-box !important;
   }
-  .cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close {
+  .cocanvas-close, .origame-close, .tictac-close, .burning-close, .ph-close, .tech-close {
     left: -8px !important;
     top: 5px;
     padding: 0px !important;
@@ -662,7 +662,7 @@ a:before, a:after  {
   #slider-image {
     max-width: 100% !important;
   }
-  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
+  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal, #tech-modal {
     background: #fff;
     max-width: 320px !important;
     font-family: 'Montserrat', sans-serif;
@@ -687,7 +687,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 0px 20px 0px !important;
-    height: 1750px;
+    height: 2150px;
   }
   #intro-text, .about-text {
     font-weight: 200 !important;
@@ -770,7 +770,7 @@ a:before, a:after  {
 @media only screen and (min-width: 918px) {
   .main {
     padding: 1.5em 0em 3em 0em !important;
-    height: 1350px !important;
+    height: 1500px !important;
   }
   #gallery {
     justify-content: space-around;
@@ -787,7 +787,7 @@ a:before, a:after  {
   .dynamo div {
     line-height: 1.05em;
   }
-  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal {
+  #cocanvas-modal, #origame-modal, #tictac-modal, #burning-modal, #ph-modal, #tech-modal {
     background: #fff;
     max-width: 600px !important;
     padding: 40px !important;
@@ -805,7 +805,7 @@ a:before, a:after  {
     margin-top: 24px !important;
     overflow: hidden !important;
   }
-  #cocanvas-modal ul, #origame-modal ul, #tictac-modal ul, #burning-modal ul, #ph-modal ul {
+  #cocanvas-modal ul, #origame-modal ul, #tictac-modal ul, #burning-modal ul, #ph-modal ul, #tech-modal ul {
     padding-left: 50px;
     line-height: 1.5em;
     font-size: 0.95em;
