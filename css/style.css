@@ -536,7 +536,6 @@ a:before, a:after  {
   html,body {
     padding: 0 !important;
     margin: 0 !important;
-
   }
   #top-menu {
     padding: 0 !important;
@@ -544,14 +543,12 @@ a:before, a:after  {
     display:flex;
     justify-content: space-around;
   }
-
   #top-menu li a {
    margin: 12px 10px 0px 10px;
    font-size: 0.75em;
    padding: 0 !important;
    padding-left: 2px !important;
   }
-
   .dynamo {
     height: 25px !important;
   }
@@ -564,7 +561,7 @@ a:before, a:after  {
   }
   .main {
     margin-top:-6vh;
-    height: 2150px;
+    height: 2575px;
    }
   #social-media {
     margin-top: 0;
@@ -687,7 +684,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 0px 20px 0px !important;
-    height: 2150px;
+    height: 2600px;
   }
   #intro-text, .about-text {
     font-weight: 200 !important;
@@ -717,7 +714,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 35px 35px 35px;
-    height: 1500px;
+    height: 1800px;
   }
   #gallery {
     flex-wrap: wrap !important;
@@ -747,7 +744,7 @@ a:before, a:after  {
 @media only screen and (min-width: 800px) {
   .main {
     padding: 20px 0px 35px 0px !important;
-    height: 1500px !important;
+    height: 1750px !important;
   }
   #social-media {
     display:inline-block;
@@ -779,6 +776,7 @@ a:before, a:after  {
 @media only screen and (min-width: 1024px) {
   .main {
     padding: 1.5em 0em 4em 0em !important;
+    height: 1600px !important;
   }
   #intro-text, .about-text {
     line-height: 1.8em !important;
