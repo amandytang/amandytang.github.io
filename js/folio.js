@@ -150,23 +150,6 @@ $( document ).ready(function() {
     $('#cocanvas-modal').addClass('animated zoomIn');
   });
 
-  $('.burning-close').click(function(e) {
-    e.preventDefault();
-    $('#burning-modal').addClass('animated zoomOut')
-
-      setTimeout( function () {
-        $('#burning-modal').removeClass('animated zoomOut');
-      }, 550);
-
-      $('.burning-modal-overlay').fadeOut(200);
-    });
-
-  $('#burning-thumb').click(function(e) {
-    e.preventDefault();
-    $('.burning-modal-overlay').fadeIn(200);
-    $('#burning-modal').addClass('animated zoomIn');
-  });
-
   $('.origame-close').click(function(e) {
     e.preventDefault();
     $('#origame-modal').addClass('animated zoomOut')
@@ -235,6 +218,24 @@ $( document ).ready(function() {
     e.preventDefault();
     $('.tictac-modal-overlay').fadeIn(200);
     $('#tictac-modal').addClass('animated zoomIn');
+  });
+
+
+  $('.burning-close').click(function(e) {
+    e.preventDefault();
+    $('#burning-modal').addClass('animated zoomOut')
+
+      setTimeout( function () {
+        $('#burning-modal').removeClass('animated zoomOut');
+      }, 550);
+
+      $('.burning-modal-overlay').fadeOut(200);
+    });
+
+  $('#burning-thumb').click(function(e) {
+    e.preventDefault();
+    $('.burning-modal-overlay').fadeIn(200);
+    $('#burning-modal').addClass('animated zoomIn');
   });
 
 });
