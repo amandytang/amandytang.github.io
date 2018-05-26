@@ -767,7 +767,7 @@ a:before, a:after  {
 @media only screen and (min-width: 918px) {
   .main {
     padding: 1.5em 0em 3em 0em !important;
-    height: 1650px !important;
+    height: 1675px !important;
   }
   #gallery {
     justify-content: space-around;
