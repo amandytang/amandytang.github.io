@@ -19,3 +19,5 @@ Live version [here](https://amandytang.github.io/)
 * Parallax.js
 * animate.css
 * HTML5/CSS3
+* Slick
+* Dynamo
