@@ -145,6 +145,35 @@ header {
   padding: 1.5em 2.5em 0em 2em;
   margin-bottom: 0;
   line-height: 1.5em;
+
+}
+.skill {
+  font-size: 0.8em;
+  padding: 0px 4px 0px 4px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 2px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border: 1px solid #ffffff;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 8px;
+  margin-top: 8px !important;
+  display: inline-block;
+}
+.topSkill {
+  margin-top: 2px;
+  margin-top: 8px !important;
+  font-size: 0.8em;
+  padding: 1px 4px 1px 4px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #366982;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 8px;
+  display: inline-block;
 }
 .accent-text {
   font-family: 'Montserrat', sans-serif;
