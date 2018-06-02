@@ -238,9 +238,4 @@ $( document ).ready(function() {
     $('#burning-modal').addClass('animated zoomIn');
   });
 
-// Fade heading when it reaches navbar
-  $(window).scroll(function(){
-    let scrollVar = $(window).scrollTop() - ($(window).height()/1.5);
-    $('#about-heading-container').css("opacity", 1 - scrollVar/300);
-  });
 });
