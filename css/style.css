@@ -713,7 +713,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 0px 20px 0px !important;
-    height: 2750px;
+    height: 2850px;
   }
   #intro-text, .about-text {
     font-weight: 200 !important;
@@ -743,7 +743,7 @@ a:before, a:after  {
   }
   .main {
     padding: 20px 35px 35px 35px;
-    height: 1900px;
+    height: 2000px;
   }
   #gallery {
     flex-wrap: wrap !important;
@@ -773,7 +773,6 @@ a:before, a:after  {
 @media only screen and (min-width: 800px) {
   .main {
     padding: 20px 0px 35px 0px !important;
-    height: 1900px !important;
   }
   #social-media {
     display:inline-block;
@@ -805,6 +804,8 @@ a:before, a:after  {
 @media only screen and (min-width: 1024px) {
   .main {
     padding: 1.5em 0em 4em 0em !important;
+    height: 1800px !important;
+
   }
   #intro-text, .about-text {
     line-height: 1.8em !important;
